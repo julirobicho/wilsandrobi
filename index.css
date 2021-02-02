@@ -1,0 +1,41 @@
+header {
+    justify-content: center;
+}
+
+.navbar {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+a {
+    padding-right: 30px;
+    color: palevioletred;
+    letter-spacing: 1px;
+    font-family: glac-ind;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+footer {
+    background-color: pink;
+    color: black;
+    font-size: 16px;
+    font-family: glac-ind;
+    padding: 40px 40px 40px 40px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: glac-ind;
+    src: url(glacial-indifference/GlacialIndifference-Regular.otf);
+  }
+
